@@ -1,0 +1,34 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  color: #46B6AC;
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app .MarkdownEditor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+#app .MarkdownEditor .box {
+  padding: 5px 8px;
+  width: 50%;
+}
+#app .demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: url("../assets/demos/dog.png") bottom right 15% no-repeat #46B6AC;
+}
+#app textarea {
+  border-color: #46B6AC;
+  width: 100%;
+  min-height: 500px;
+}
